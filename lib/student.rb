@@ -1,7 +1,8 @@
 class Student < User
+KNOWLEDGE
 
 def initialize(first_name, last_name)
-  ::KNOWLEDGE = []
+  :KNOWLEDGE = []
   @first_name = first_name
   @last_name = last_name
 end
