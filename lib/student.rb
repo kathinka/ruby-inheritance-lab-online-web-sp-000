@@ -1,7 +1,12 @@
 class Student < User
 
-#def initialize
+def initialize(first_name, last_name)
   KNOWLEDGE = []
-#end
+end
+
+def learn()
+
+end
+
 
 end
