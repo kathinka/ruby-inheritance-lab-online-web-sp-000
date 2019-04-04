@@ -1,18 +1,18 @@
 class Student < User
-KNOWLEDGE
+
 
 def initialize(first_name, last_name)
-  
+  @knowledge = []
   @first_name = first_name
   @last_name = last_name
 end
 
-def learn(knowledge)
-KNOWLEDGE << knowledge
+def learn(string)
+@knowledge << string
 end
 
 def knowledge
-  KNOWLEDGE
+  @knowledge
 end
 
 
