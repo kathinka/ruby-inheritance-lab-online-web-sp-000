@@ -6,8 +6,8 @@ def initialize(first_name, last_name)
   @last_name = last_name
 end
 
-def learn()
-
+def learn(knowledge)
+KNOWLEDGE << knowledge
 end
 
 
